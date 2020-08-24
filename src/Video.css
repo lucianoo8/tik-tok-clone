@@ -1,0 +1,15 @@
+.video{
+    position: relative;
+    background-color: white;
+    height: 500px;
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: start;   /*This make every video snap to from bottom to top */
+
+}
+
+.video__player{
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
